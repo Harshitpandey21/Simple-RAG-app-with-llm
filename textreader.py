@@ -23,7 +23,7 @@ retrieved_docs = retriever.invoke(query)
 
 retrieved_text = "\n".join([doc.page_content for doc in retrieved_docs])
 
-llm = ChatOpenAI(model = "gpt-4o", temperature=0.7)
+llm = ChatOpenAI(model = "gpt-4o-mini", temperature=0.7)
 
 prompt = f"Based on the following text, answer the question:{query}\n\n{retrieved_text}"
 answer = llm.invoke(prompt)
