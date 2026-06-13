@@ -6,3 +6,5 @@ Uses OpenAI API key for LLM integration.
 This is only test app.
 
 Use cases:
+
+Used it for personal use
