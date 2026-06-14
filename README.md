@@ -8,3 +8,5 @@ This is only test app.
 Use cases:
 
 Used it for personal use
+
+Just a test code written
