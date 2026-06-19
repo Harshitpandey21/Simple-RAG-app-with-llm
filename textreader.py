@@ -6,7 +6,7 @@ from langchain_community.vectorstores import FAISS
 from dotenv import load_dotenv
 load_dotenv()
 
-loader = TextLoader('sample.txt')
+loader = TextLoader('sample.txt') # Loads text from sample.txt file
 documents = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
