@@ -18,7 +18,7 @@ vectorstore = FAISS.from_documents(docs, embeddings)
 
 retriever = vectorstore.as_retriever()
 
-query = "provide me the detailed summary for this document."
+query = "provide me the detailed and precise summary for this document."
 retrieved_docs = retriever.invoke(query)
 
 retrieved_text = "\n".join([doc.page_content for doc in retrieved_docs])
