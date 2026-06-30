@@ -12,3 +12,5 @@ Used it for personal use
 Just a test code written
 
 Practice of RAG pipeline.
+
+This is Used for personal use.
