@@ -15,5 +15,5 @@ Practice of RAG pipeline.
 
 This is Used for personal use.
 
-This is just a test code written. 
+This is just a test code written.
 
